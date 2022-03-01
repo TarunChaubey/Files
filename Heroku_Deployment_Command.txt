@@ -1,0 +1,8 @@
+heroku login
+git init
+heroku git:remote -a yoloimgclassificationbytarun
+git config user.email "email"
+git config user.name "Name"
+git add .
+git commit -am "make it better"
+git push heroku master
